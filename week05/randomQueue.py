@@ -17,3 +17,4 @@ while len(queue) != 0:
     print(f"Current number is {currentNumber} and the queue is {queue}")
 
 print("The queue is now empty")
+
