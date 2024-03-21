@@ -44,6 +44,10 @@ def doView(students):
         print(current_student["name"])
         display_modules(current_student["modules"])
 
+def doSave(students):
+    write_dict(students)
+    print("in save")
+
 students = []
 choice = display_menu()
 while(choice != "q"):
